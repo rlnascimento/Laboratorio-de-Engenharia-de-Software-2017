@@ -1,0 +1,22 @@
+package stream;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class MainStream {
+
+	public static void main(String[] args) {
+		try{
+			FileWriter writer = new FileWriter ("C://Temp/stream.txt");
+		
+			writer.write('A');
+			writer.write('N');
+		
+			writer.close();
+		}
+		catch(IOException e){
+			e.printStackTrace();
+		}
+	}
+
+}

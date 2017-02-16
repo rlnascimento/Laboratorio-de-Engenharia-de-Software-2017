@@ -1,0 +1,26 @@
+package socket;
+
+public class MainSocket {
+
+	static class Aluno {
+		String nome;
+		String ra;
+		int idade;
+		
+		public Aluno(String nome,String ra,int idade){
+			this.nome 	= nome;
+			this.ra 	= ra;
+			this.idade 	= idade;
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void gravaObjetos(){
+		Aluno a = new Aluno("João Maria","1234",21);
+	}
+
+}

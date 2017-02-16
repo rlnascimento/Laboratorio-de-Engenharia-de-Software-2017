@@ -1,0 +1,40 @@
+package socket;
+
+import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainSocket {
+
+	static class Aluno {
+		String nome;
+		String ra;
+		int idade;
+		
+		public Aluno(String nome,String ra,int idade){
+			this.nome 	= nome;
+			this.ra 	= ra;
+			this.idade 	= idade;
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void gravaObjetos(){
+		Aluno a = new Aluno("João Maria","1234",21);
+		
+		List<Aluno> lista = new ArrayList<>();
+		
+		lista.add(a);
+		
+		try{
+			FileOutputStream output = new FileOutputStream("C://Temp/serialize.txt");
+			
+			ObjectOutputStream objectOutput = new ObjectOutputStream(output);
+		}
+	}
+
+}

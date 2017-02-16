@@ -1,0 +1,18 @@
+package socket;
+
+public class MainSocket {
+
+	static class Aluno {
+		String nome;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void gravaObjetos(){
+		
+	}
+
+}
