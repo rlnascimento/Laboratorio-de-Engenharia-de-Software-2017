@@ -14,7 +14,6 @@ INDEX VERSION 1.127+J:\backup pendrive\Git\git-32-windows\labEngSw\15-02-2017\.m
 994834796.index
 3716007315.index
 3045053200.index
-942818050.index
 2674037006.index
 3954291735.index
 3656756579.index

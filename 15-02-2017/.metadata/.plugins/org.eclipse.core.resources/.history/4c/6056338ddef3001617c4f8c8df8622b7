@@ -7,7 +7,6 @@ public class MainSocket {
 	public static void main(String[] args){
 		try{
 			System.out.println("A copa do mundo é nossa");
-			
 			ServerSocket server = new ServerSocket(50000);
 			server.accept();
 			
